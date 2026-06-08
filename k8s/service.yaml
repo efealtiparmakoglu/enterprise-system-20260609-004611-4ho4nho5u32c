@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: enterprise-system-20260609-004611-4ho4nho5u32c-service
+spec:
+  selector:
+    app: enterprise-system-20260609-004611-4ho4nho5u32c
+  ports:
+  - port: 80
+    targetPort: 8000
+  type: ClusterIP
